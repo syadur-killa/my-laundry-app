@@ -1,0 +1,79 @@
+[
+  {
+    "_id": "6345820ee8299472a2ad576d",
+    "price": 25,
+    "name": "Carver",
+    "itemType": "Shirts",
+    "serviceType": "WASH"
+  },
+  {
+    "_id": "6345820e08ad625d27c2ef8a",
+    "price": 27,
+    "name": "Marks",
+    "itemType": "CABLAM",
+    "serviceType": "WASH"
+  },
+  {
+    "_id": "6345820e20b2dfe27db38b60",
+    "price": 36,
+    "name": "Dudley",
+    "itemType": "Shirts",
+    "serviceType": "WASH"
+  },
+  {
+    "_id": "6345820e67e6699832889f81",
+    "price": 22,
+    "name": "Raquel",
+    "itemType": "Bottoms",
+    "serviceType": "WASH"
+  },
+  {
+    "_id": "6345820e1d03ccbaffe8d408",
+    "price": 21,
+    "name": "Vonda",
+    "itemType": "Bottoms",
+    "serviceType": "WASH"
+  },
+  {
+    "_id": "6345820ed2d395e4143fe04f",
+    "price": 30,
+    "name": "Oneil",
+    "itemType": "MULTIFLEX",
+    "serviceType": "Ironing"
+  },
+  {
+    "_id": "6345820e70968f0e1416ff05",
+    "price": 26,
+    "name": "Kris",
+    "itemType": "Bottoms",
+    "serviceType": "Ironing"
+  },
+  {
+    "_id": "6345820e0022d154d40ed327",
+    "price": 29,
+    "name": "Summers",
+    "itemType": "Shirts",
+    "serviceType": "Dry Cleaning"
+  },
+  {
+    "_id": "6345820e8b9255a8d87e7549",
+    "price": 32,
+    "name": "Bowen",
+    "itemType": "Bottoms",
+    "serviceType": "Dry Cleaning"
+  },
+  {
+    "_id": "6345820e8248448174907cc3",
+    "price": 27,
+    "name": "Riley",
+    "itemType": "Children",
+    "serviceType": "Wash & Iron"
+  },
+  {
+    "_id": "6345820eb9bbe88697a9c016",
+    "price": 37,
+    "name": "Latasha",
+    "itemType": "CUBICIDE",
+    "serviceType": "Duvets & Bulky Items"
+  }
+]
