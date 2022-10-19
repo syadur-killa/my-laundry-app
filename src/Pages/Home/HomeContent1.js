@@ -4,7 +4,7 @@ import imgForhc from "../../Assets/Images/LaundryService.jpg";
 
 const HomeContent1 = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-10">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-10">
       <div className="m-5">
         <img src={imgForhc} alt="" />
       </div>

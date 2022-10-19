@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Process = () => {
   return (
@@ -9,7 +10,9 @@ const Process = () => {
             <h1 className="text-6xl font-bold">Quick. Clean. Fresh.</h1>
             <p className="py-5">Your laundry delivered in 24h</p>
 
-            <button className="btn btn-primary">Scheduled your Pickup</button>
+            <Link to="/price">
+              <button className="btn btn-primary">Scheduled your Pickup</button>
+            </Link>
           </div>
         </div>
       </div>

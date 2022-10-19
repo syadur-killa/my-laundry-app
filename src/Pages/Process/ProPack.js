@@ -6,7 +6,7 @@ import weight from "../../Assets/Icones/weight.svg";
 
 const ProPack = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
       <div className="m-5">
         <img src={benefit_1} alt="" />
       </div>

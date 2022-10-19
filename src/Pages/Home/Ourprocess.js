@@ -8,7 +8,7 @@ const Ourprocess = () => {
   const chat =
     "https://prod-cdn.laundryheap.com/assets/landing/icons/chat-ecb700cb9b10e2d9668526900e47d154e28ef3b6a82dd4b0989b86cf1167ad76.svg";
   return (
-    <div className="py-20">
+    <div className="container mx-auto py-20">
       <p className="text-4xl mx-20 py-5 font-bold">
         <p> We collect, clean, and deliver </p>
         <p>your laundry and dry cleaning.</p>

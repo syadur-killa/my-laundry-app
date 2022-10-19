@@ -6,7 +6,7 @@ import moon from "../../Assets/Images/moon.svg";
 
 const ProSchedule = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
       <div className="text-left flex flex-col py-20 px-5">
         <p>FLEXIBLE</p>
         <p className="text-3xl font-bold py-5">1. Schedule your collection</p>

@@ -18,8 +18,8 @@ export default function CustomerQuestion() {
   };
 
   return (
-    <div className="mx-20 py-10 text-left ">
-      <p className="text-primary">DO YOU HAVE QUESTIONS?</p>
+    <div className="container mx-auto py-10 sm:px-5 text-left ">
+      <p className="text-primary text-center">DO YOU HAVE QUESTIONS?</p>
       <Fragment>
         <Accordion open={open === 1} animate={customAnimation}>
           <AccordionHeader className="text-sm" onClick={() => handleOpen(1)}>

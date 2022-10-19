@@ -6,7 +6,7 @@ import truck from "../../Assets/Icones/truck.svg";
 
 const ProDeliver = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-20">
       <div className="text-left flex flex-col py-20 px-5">
         <p>TRANSPARENT</p>
         <p className="text-3xl font-bold py-5">3. Wait for our driver</p>

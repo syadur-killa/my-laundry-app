@@ -19,7 +19,7 @@ const Home = () => {
     <div className="">
       <Banner />
       <Ourprocess></Ourprocess>
-      <State></State>
+      {/* <State></State> */}
       <HomeContent1 />
       <HomeContent2 />
       <HomeContent3 />

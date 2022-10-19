@@ -12,9 +12,11 @@ const Service = () => {
   }, []);
 
   return (
-    <div className="pt-10">
-      <p className="text-6xl">Our Services</p>
-      <div className="grid grid-cols-3 mx-4 gap-3">
+    <div className="container mx-auto pt-10">
+      <p className="text-3xl lg:text-6xl font-extrabold text-primary ">
+        Our Services
+      </p>
+      <div className=" grid sm:grid-cols-1 lg:grid-cols-3 mx-4 gap-3 py-5">
         {services.map((service) => (
           <ServiceCard key={service._id} service={service}></ServiceCard>
         ))}

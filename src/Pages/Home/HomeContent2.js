@@ -8,7 +8,7 @@ const HomeContent2 = () => {
   const schedule =
     "https://prod-cdn.laundryheap.com/assets/landing/benefits/bag-4ce09f20854869392ff759b2698a6890b263730052076f348f7d5b12e357514a.svg";
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-10">
+    <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-10">
       <div className="text-left flex flex-col py-20 px-5">
         <p>24H TURNAROUND TIME</p>
         <p className="text-3xl font-bold py-5">No need to plan in advance</p>

@@ -2,8 +2,8 @@ import React from "react";
 
 const State = () => {
   return (
-    <div>
-      <div className="stats shadow">
+    <div className="container mx-auto">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-3 stats shadow">
         <div className="stat">
           <div className="stat-figure text-primary">
             <svg

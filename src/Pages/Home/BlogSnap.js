@@ -3,7 +3,7 @@ import React from "react";
 const BlogSnap = () => {
   return (
     <div>
-      <div className="m-20 items-center">
+      <div className="container mx-auto my-20 items-center">
         <iframe
           width="500"
           height="300"

@@ -51,46 +51,48 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="flex justify-between g bg-indigo-900 text-white py-5 px-10">
-        <div className="text-left">
-          <p className="text-4xl font-bold text-yellow-500">
-            Ranked #1 by customers
-          </p>
-          <p>in categories Dry cleaner, Laundry service and Laundrette</p>
-        </div>
-        <div className="">
-          <div>
-            <div className="rating gap-1">
-              <input
-                type="radio"
-                name="rating-3"
-                className="mask mask-heart bg-red-400"
-              />
-              <input
-                type="radio"
-                name="rating-3"
-                className="mask mask-heart bg-orange-400"
-                checked
-              />
-              <input
-                type="radio"
-                name="rating-3"
-                className="mask mask-heart bg-yellow-400"
-              />
-              <input
-                type="radio"
-                name="rating-3"
-                className="mask mask-heart bg-lime-400"
-              />
-              <input
-                type="radio"
-                name="rating-3"
-                className="mask mask-heart bg-green-400"
-              />
-            </div>
+      <div className=" bg-indigo-900">
+        <div className="container mx-auto flex justify-between text-white py-5 px-10">
+          <div className="text-left">
+            <p className="text-4xl font-bold text-yellow-500">
+              Ranked #1 by customers
+            </p>
+            <p>in categories Dry cleaner, Laundry service and Laundrette</p>
           </div>
-          <div>
-            <Link to="/services">Read More review</Link>
+          <div className="">
+            <div>
+              <div className="rating gap-1">
+                <input
+                  type="radio"
+                  name="rating-3"
+                  className="mask mask-heart bg-red-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-3"
+                  className="mask mask-heart bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-3"
+                  className="mask mask-heart bg-yellow-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-3"
+                  className="mask mask-heart bg-lime-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-3"
+                  className="mask mask-heart bg-green-400"
+                />
+              </div>
+            </div>
+            <div>
+              <Link to="/services">Read More review</Link>
+            </div>
           </div>
         </div>
       </div>

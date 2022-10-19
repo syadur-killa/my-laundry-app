@@ -44,9 +44,12 @@ const Pricing = () => {
           </Link>
         </div>
       </div>
-      <div className="content flex">
-        <Outlet />
-        <div className="border bg-slate-300">
+      <div className="content flex justify-between px-10">
+        <div className="mx-auto">
+          {" "}
+          <Outlet />
+        </div>
+        <div className="border bg-slate-300 mx-auto">
           <p>No services selected Do I need to list every item?</p>
           <button className="btn btn-primary">Schedule and Order</button>
         </div>

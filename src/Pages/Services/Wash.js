@@ -1,32 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import wash from "../../Assets/Images/wash_big.png";
-import {
-  Tabs,
-  TabsHeader,
-  TabsBody,
-  Tab,
-  TabPanel,
-} from "@material-tailwind/react";
+import Table from "./Table";
 
 const Wash = () => {
-  const data = [
+  const [item, setitem] = useState("");
+  const washItems = [
     {
-      label: "Price List",
-      value: "html",
-      desc: `It really matters and then like it really doesn't matter.
-      What matters is the people who are sparked by it. And the people 
-      who are like offended by it, it doesn't matter.`,
+      name: "Shirt",
+      price: 10,
     },
     {
-      label: "Service Details",
-      value: "react",
-      desc: `Because it's about motivating the doers. Because I'm here
-      to follow my dreams and inspire other people to follow their dreams, too.`,
+      name: "Pant",
+      price: 10,
+    },
+    {
+      name: "Saree",
+      price: 30,
+    },
+    {
+      name: "3pc",
+      price: 30,
     },
   ];
+  const addCart = (item) => {
+    setitem(item);
+  };
+  console.log(item);
   return (
-    <div className="py-10">
-      <div className="flex justify-between mx-10">
+    <div>
+      <div className="flex justify-between mx-10 pt-10">
         <div className="text-left">
           <p className="text-3xl font-bold text-primary">Wash</p>
           <p>For everyday laundry, bedsheets and towels.</p>
@@ -39,25 +41,48 @@ const Wash = () => {
         </div>
       </div>
       <div>
-        <Tabs value="html">
-          <div className="flex flex-start gap-5">
-            <TabsHeader>
-              {data.map(({ label, value }) => (
-                <Tab key={value} value={value}>
-                  <button className="btn   focus:btn-secondary">{label}</button>
-                </Tab>
-              ))}
-            </TabsHeader>
+        <div className="tabs">
+          <a className="tab tab-lifted">Tab 1</a>
+          <a className="tab tab-lifted tab-active">Tab 2</a>
+          <a className="tab tab-lifted">Tab 3</a>
+        </div>
+      </div>
+      <div className="divider"></div>
+      <div>
+        <p>Items</p>
+        <div>
+          <div className="overflow-x-auto">
+            <table className="table w-full">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Add Cart</th>
+                </tr>
+              </thead>
+              <tbody>
+                {washItems.map((item) => (
+                  <>
+                    <tr>
+                      <th>1</th>
+                      <td>{item.name}</td>
+                      <td>{item.price}</td>
+                      <td>
+                        <button
+                          onClick={() => addCart(item)}
+                          class="btn btn-sm"
+                        >
+                          Add
+                        </button>
+                      </td>
+                    </tr>
+                  </>
+                ))}
+              </tbody>
+            </table>
           </div>
-          <div className="divider"></div>
-          <TabsBody>
-            {data.map(({ value, desc }) => (
-              <TabPanel key={value} value={value}>
-                {desc}
-              </TabPanel>
-            ))}
-          </TabsBody>
-        </Tabs>
+        </div>
       </div>
     </div>
   );

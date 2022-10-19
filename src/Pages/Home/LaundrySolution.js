@@ -12,7 +12,7 @@ import qr from "../../Assets/Images/qr_code.png";
 
 const LaundrySolution = () => {
   return (
-    <div>
+    <div className="container mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:px-10 lg:py-10">
         <div className="text-left flex flex-col py-20 px-5">
           <p className="text-3xl font-bold py-5">
