@@ -9,7 +9,7 @@ const HomeContent1 = () => {
         <img src={imgForhc} alt="" />
       </div>
       <div className="text-left flex flex-col py-20 px-5">
-        <p>FREEDOM FROM LAUNDRY</p>
+        <p>FREEDOM FROM LAUNDRY test</p>
         <p className="text-3xl font-bold py-5">
           A laundry service designed for you
         </p>
